@@ -1,0 +1,48 @@
+<div class='pure-u-1'>
+  <h1 id='logo'>Logo</h1>
+  <div ng-init='mainTab=1'>
+  	<div ng-show='mainTab == 1' >
+  	  <div id='main-header'></div>
+  	  <div id='main-tab'>
+  	    <h2 class='fir-line'>Move to a better life with 1 glass of Anlene</h2>
+  	    <h2 class='sec-line'>+ 30 minutes of exercise daily. #StartMoving</h2>
+  	    <a href='' ng-click="mainTab = 2">Tap to start</a>
+  	  </div>
+  	</div>
+  	<div ng-show='mainTab == 2' id='main-form' class='pure-u-1'>
+  	   <form class="pure-form pure-form-aligned">
+  	   	<h2>Please enter your particulars</h2>
+      	<fieldset>
+      	  <div class="pure-control-group">
+      	    <label for="name">Full Name</label>
+      	    <input class="pure-input-2-3" id="name" type="text" placeholder="Full Name">
+      	  </div>
+      	  <div class="pure-control-group">
+      	  	<label for="gender">Gender</label>
+      	  	<label for="gendermale" class="pure-radio">
+        			<input id="gendermale" type="radio" name="optionsRadios" value="Male" checked>Male
+    				</label>
+    				<label for="gendermale" class="pure-radio">
+        			<input id="genderfemail" type="radio" name="optionsRadios" value="Female" checked>Female
+    				</label>
+      	  </div>
+		  	  <div class="pure-control-group">
+      	    <label for="email">Email</label>
+      	    <input class="pure-input-2-3" id="email" type="email" placeholder="Email">
+      	  </div>
+      	  <div class="pure-control-group">
+      	    <label for="mobile">Mobile</label>
+      	    <input class="pure-input-2-3" id="usrtel" type="tel" placeholder="Mobile">
+      	  </div>
+		  		<div class="pure-control-group">
+      	    <label for="age">Age</label>
+      	    <input class="pure-input-2-3" id="age" type="number" placeholder="Age">
+      	  </div>
+      	  <div class="pure-controls button">
+      	    <a href='#/complete-submission' type="submit" class="pure-button pure-button-anlene">Register</a>
+      	  </div>
+      	</fieldset>
+		   </form>
+  	</div>
+  </div>
+</div>

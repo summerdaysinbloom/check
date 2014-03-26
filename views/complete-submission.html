@@ -1,0 +1,56 @@
+<div class='pure-u-1' id='submission-page'>
+  <h1 id='logo'>Logo</h1>
+  <div id='submission-header'></div>
+  <a ng-init='reminderTab=1'>
+  	<div ng-show='reminderTab == 1' ng-click='reminderTab = 2' id='reminder'></div>
+  	<div ng-show='reminderTab == 2' id='reminder-sent'></div>
+  </a>
+  <div class='pure-g-r'>
+  	<div class='pure-u-1-2' id='video'>
+  	  <h3>Stop sitting, start Moving.</h3>
+  	  <a ng-click='popupLayer = 1'><img src='images/video.jpg'/></a></div>
+  	<div class='pure-u-1-2' id='article'>
+  	  <h3>Article for you</h3>
+  	  <div class='pure-g'>
+  	  	<a ng-click='popupLayer = 2'>
+  	  		<div class='pure-u-1 article first'>
+  	  			<div class='pure-g'>
+  	  				<div class='pure-u-1-4'><img src='images/article1.png'/></div>
+  	  				<div class='pure-u-3-4'>
+  	  					<p class='date'>MARCH 03</p>
+  	  					<h4 class='title'>3 Easy Ways To Build Strong Bones</h4>
+  	  					<p class='content'>Bone building reaches a peak during adolescence but then slows after age 25... <span>Read more</span></p>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  	</a>
+  	  	<a ng-click='popupLayer = 2'>
+  	  		<div class='pure-u-1 article second'>
+  	  			<div class='pure-g'>
+  	  				<div class='pure-u-1-4'><img src='images/article2.png'/></div>
+  	  				<div class='pure-u-3-4'>
+  	  					<p class='date'>MARCH 04</p>
+  	  					<h4 class='title'>Strong bones for healthy aging</h4>
+  	  					<p class='content'>There’s one way to add life to your years, and it’s under your nose... <span>Read more</span></p>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  	</a>
+  	  </div>
+  	  <div class='pure-g'>
+  	      <a class="pure-u-1-3 pure-button pure-button-anlene">MORE</a>
+  	    </div>
+  	  </div>
+    </div>
+  <div id='share'></div>
+</div>
+<div class='pure-u-1' id='popupVideo' ng-show='popupLayer == 1'>
+	<a ng-click="closeLayer()"><img src='images/close.png'/></a>
+	<div id='popup-video'>
+		<iframe width="720" height="405" src="//www.youtube.com/embed/C6V_2PDbslg" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+<div class='pure-u-1' id='popupArticle' ng-show='popupLayer == 2'>
+	<a ng-click="closeLayer()"><img src='images/close.png'/></a>
+	<img class='layer' src='images/article.jpg'/>
+</div>
