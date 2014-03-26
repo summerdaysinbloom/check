@@ -125,9 +125,11 @@ p,a,h1,h2,h3,h4,h5,h6 {
       margin-right: 0.6em;
       padding: .6em .7em;
     }
-    input {
-      -webkit-appearance: none;
-      -moz-appearance: none; /* mobile firefox too! */
+    .pure-control-group.input {
+      input {
+        -webkit-appearance: none;
+        -moz-appearance: none; /* mobile firefox too! */
+      }
     }
   }
   .pure-controls.button {
