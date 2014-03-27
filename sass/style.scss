@@ -245,7 +245,7 @@ p,a,h1,h2,h3,h4,h5,h6 {
         margin: 0;
       }
       p {
-        font-size: 0.8em;
+        font-size: 0.9em;
       }
       p.date {
         font-family: 'din';
@@ -253,8 +253,8 @@ p,a,h1,h2,h3,h4,h5,h6 {
       h4.title {
         color: #48bfa3;
         font-family: 'din';
-        font-size: 0.9em;
-        margin: .2em 0 0.1em;
+        font-size: 1.0em;
+        margin-bottom: -0.1em;
         text-transform: uppercase;
       }
       p.content {
