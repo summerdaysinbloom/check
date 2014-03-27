@@ -248,13 +248,14 @@ p,a,h1,h2,h3,h4,h5,h6 {
         font-size: 0.8em;
       }
       p.date {
-        font-family: 'franklin';
+        font-family: 'din';
       }
       h4.title {
         color: #48bfa3;
-        font-family: 'franklin';
+        font-family: 'din';
         font-size: 0.9em;
-        margin: 0.2em 0;
+        margin: .2em 0 0.1em;
+        text-transform: uppercase;
       }
       p.content {
         font-family: 'franklinItalic';
