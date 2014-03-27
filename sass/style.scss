@@ -91,9 +91,10 @@ p,a,h1,h2,h3,h4,h5,h6 {
 }
 
 .pure-button-anlene {
+  font-family: 'franklin';
   font-size: 1.0em;
   letter-spacing: 4px;
-  padding: 1.0em 2.5em 0.6em;
+  padding: 0.9em 2.5em;
   background: none;
   border: 2px solid #48bfa3;
   border-radius: 3px;
@@ -107,12 +108,13 @@ p,a,h1,h2,h3,h4,h5,h6 {
 
 #main-form form {
   background: rgba(255,255,255,.7);
-  font-family: 'din';
+  font-family: 'franklin';
   margin: 30px;
   padding: 90px;
   .pure-control-group {
     margin-bottom: 1.5em;
     label {
+      font-family: 'franklin';
       font-size: 1.1em;
       margin: 0 .5em 0 0;
       width: 8em;
@@ -243,18 +245,19 @@ p,a,h1,h2,h3,h4,h5,h6 {
         margin: 0;
       }
       p {
-        font-size: 0.9em;
+        font-size: 0.8em;
       }
       p.date {
-
+        font-family: 'franklin';
       }
       h4.title {
         color: #48bfa3;
-        font-size: 1.15em;
+        font-family: 'franklin';
+        font-size: 0.9em;
         margin: 0.2em 0;
       }
       p.content {
-        font-style: italic;
+        font-family: 'franklinItalic';
         span {
           color: #48bfa3;
         }
