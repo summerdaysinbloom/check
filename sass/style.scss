@@ -69,14 +69,15 @@ p,a,h1,h2,h3,h4,h5,h6 {
   width: 100%;
   h2 {
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.9em;
     position: absolute;
     left: 253px;
+    letter-spacing: -0.5px;
     &.fir-line {
       top: 57px;
     }
     &.sec-line {
-      top: 96px;
+      top: 90px;
     }
   }
   a {
